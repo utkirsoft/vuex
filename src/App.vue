@@ -18,6 +18,7 @@ export default {
   computed:
     mapGetters(['allPosts']),
   async mounted() {
+    // interesno
     this.$store.dispatch('fetchPosts')
   },
 }
